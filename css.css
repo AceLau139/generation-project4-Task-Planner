@@ -63,7 +63,7 @@ body{
 
 /* Desktop - navbar */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .search-bar{
     display: block;
   }
@@ -74,9 +74,71 @@ body{
   display: none;
 }
 
-/* iPad - task */
+.mobliem{
+  display: block;
+}
+
+/* moblie mainbanner */
+
+#home-tab{
+  background-color: hsl(183, 100%, 52%) ;
+  color: white;
+  
+}
+
+#profile-tab{
+  background-color: hsl(161, 100%, 64%) ;
+  color: white;
+}
+
+#contact-tab{
+  background-color: hsl(39, 100%, 50% );
+  color: white;
+}
+
+#contact-tabb{
+  background-color: hsl(0, 100%, 50%) ;
+  color: white;
+}
+
+/* mbolie main */
+#home-tab-pane{
+
+  background-color: hsl(161, 100%, 64%, 0.3) ;
+  
+  height: 1000px;
+}
+
+
+#profile-tab-pane{
+
+  background-color:hsl(183, 100%, 52%,0.3) ;
+  
+  height: 1000px;
+}
+
+
+#contact-tab-pane{
+
+  background-color: hsl(39, 100%, 50% , 0.3) ;
+  
+  height: 1000px;
+}
+
+#disabled-tab-panee{
+
+  background-color: red ;
+  
+  height: 1000px;
+}
+
+/* iPad & Desktop - task */
 
 @media only screen and (min-width: 834px) {
+  .mobliem{
+    display: none;
+  }
+
   .grid-container{
     display: grid;
     column-gap: 50px;
@@ -137,68 +199,5 @@ body{
     color: white;
     width: 100%;
   }
-}
-
-/*  */
-
-.mobliem{
-
-    display: none;
-}
-
-/* moblie mainbanner */
-
-  #home-tab{
-    background-color: hsl(183, 100%, 52%) ;
-    color: white;
-    
-  }
-
-
-
-  #profile-tab{
-    background-color: hsl(161, 100%, 64%) ;
-    color: white;
-  }
-
-  #contact-tab{
-    background-color: hsl(39, 100%, 50% );
-    color: white;
-  }
-
-  #contact-tabb{
-    background-color: hsl(0, 100%, 50%) ;
-    color: white;
-  }
-
-/* mbolie main */
-#home-tab-pane{
-
-    background-color: hsl(161, 100%, 64%, 0.3) ;
-    
-    height: 1000px;
-}
-
-
-#profile-tab-pane{
-
-    background-color:hsl(183, 100%, 52%,0.3) ;
-    
-    height: 1000px;
-}
-
-
-#contact-tab-pane{
-
-    background-color: hsl(39, 100%, 50% , 0.3) ;
-    
-    height: 1000px;
-}
-
-#disabled-tab-panee{
-
-    background-color: red ;
-    
-    height: 1000px;
 }
 
