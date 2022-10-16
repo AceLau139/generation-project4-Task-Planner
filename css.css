@@ -59,6 +59,10 @@ body{
   .testbutton{
     display: block;
   }
+
+  .user-icon {
+    height: 100%;
+  }
 }
 
 /* Desktop - navbar */
@@ -80,29 +84,29 @@ body{
 
 /* moblie mainbanner */
 
-#home-tab{
+#todo-tab{
   background-color: hsl(183, 100%, 52%) ;
   color: white;
   
 }
 
-#profile-tab{
+#doing-tab{
   background-color: hsl(161, 100%, 64%) ;
   color: white;
 }
 
-#contact-tab{
+#done-tab{
   background-color: hsl(39, 100%, 50% );
   color: white;
 }
 
-#contact-tabb{
+#overdue-tabb{
   background-color: hsl(0, 100%, 50%) ;
   color: white;
 }
 
 /* mbolie main */
-#home-tab-pane{
+#todo-tab-pane{
 
   background-color: hsl(161, 100%, 64%, 0.3) ;
   
@@ -110,7 +114,7 @@ body{
 }
 
 
-#profile-tab-pane{
+#doing-tab-pane{
 
   background-color:hsl(183, 100%, 52%,0.3) ;
   
@@ -118,16 +122,16 @@ body{
 }
 
 
-#contact-tab-pane{
+#done-tab-pane{
 
   background-color: hsl(39, 100%, 50% , 0.3) ;
   
   height: 1000px;
 }
 
-#disabled-tab-panee{
+#overdue-tab-panee{
 
-  background-color: red ;
+  background-color: hsl(0, 100%, 50%, 0.3) ;
   
   height: 1000px;
 }
