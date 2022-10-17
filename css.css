@@ -44,7 +44,7 @@ body{
 }
 
 .user-icon {
-  height: 100%;
+  display: none;
 }
 
 .user-icon img {
@@ -54,6 +54,13 @@ body{
 }
 
 /* iPad - navbar */
+
+@media only screen and (min-width: 280px) {
+  .user-icon {
+    display: inline-block;
+    height: 100%;
+  }
+}
 
 @media only screen and (min-width: 834px) {
   .testbutton{
@@ -87,7 +94,6 @@ body{
 #todo-tab{
   background-color: hsl(183, 100%, 52%) ;
   color: white;
-  
 }
 
 #doing-tab{
